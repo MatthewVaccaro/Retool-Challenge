@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+button {
+	font-family: "Inter", sans-serif;
+}
+
+.pill:hover {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pillContainer:hover h3 {
+	color: #525fbe;
+}
+
+.gradient {
+	pointer-events: none;
+	background: linear-gradient(90deg, #f8f8f8 6.88%, rgba(248, 248, 248, 0) 25.49%, rgba(248, 248, 248, 0) 79.96%, #f8f8f8 96.25%);
+}
